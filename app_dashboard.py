@@ -40,6 +40,7 @@ fig1, ax1 = plt.subplots()
 sns.scatterplot(data=filtered_df, x="total_bill", y="tip", hue="smoker", ax=ax1)
 st.pyplot(fig1)
 
+
 # Boxplot
 st.subheader("Boxplot of Tip by Day")
 fig2, ax2 = plt.subplots()
